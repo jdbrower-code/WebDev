@@ -3,16 +3,84 @@
 <head>
     <!--Define which charater set we are using-->
     <meta charset="UTF-8">
+
     <!--call browser window and sets size and zoom at launce-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!--define search words-->
     <meta name="keywords" content="HTML, CSS">
+    
     <!--Deifine description for page (Defices what will show in title 
     when searched on web)-->
     <meta name="description" content="...">
+    
     <title>Document</title>
+    <!--Change the default style of the emphized element call
+    (This is CSS)-->
+    <style>
+        em
+        {
+            color: red;
+            font-style: normal;
+        }
+    </style>
 </head>
 <body>
+    <!--Headings-->
+    <h1>Heading 1</h1>
+    <h2>HTML</h2>
+    <p>
+        HTML Tutorial
+    </p>
+    <H3>Code</H3>
+    <H3>Exercises</H3>
+    <h2>CSS</h3>
+    <p>
+        CSS Tutorial
+    </p>
+    <!--Place text on screen (p = paragraph)-->
+    <p>
+        I Love to teach you
+            <!--
+            Emphasise a piece of the paragraph
+            <em>
+                HTML
+            </em>
+            -->
+        <!--for entities like the ones below they all start with& and end
+        with ; &lt; = less than symbol &gt; = greater than symbol and 
+        &copy = copyright symbol. you can find all the diffrent HTML enties
+        by doing a google search-->
+        &lt;HTML&gt; &copy;!
+    </p>
+    <!--Weblinks are created with an anchor element represented with an 
+    <a href=""-->
+    <!--Use a relative link for pages in the same folder-->
+    <a href="about.html"><p>Same Folder</p> </a> 
+
+    <!--if in another folder you start there it is still a relative url-->
+    <a href="company/about.html"><p>In Diffrent Folder</p></a>
     
+    <!--download with no ="" will download file on click-->
+    <a href="images/Logo.png" download> <p>Company Logo</p></a>
+
+    <!--'#' creates link to the unique identifier that follow it-->
+    <a href="#section-css">CSS</a>
+
+    <!--Add Achor to link link to another web site (google)-->
+    <!--target="_blank" opens page in new tab-->
+    <a href="https://google.com" target="_blank"> <p>Google</p></a>
+
+    <!--Add achor to link to emails-->
+    <a href="mailto:jdbrower1@gmail.com"> Email Me</a>
+    
+    <h2>HTML</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eligendi blanditiis, deserunt voluptas aspernatur mollitia, temporibus adipisci deleniti accusantium reprehenderit vitae praesentium exercitationem nulla sunt distinctio officia rerum? Perspiciatis cumque dolorem, blanditiis inventore ratione provident culpa ex qui, eos, eveniet voluptatem aspernatur quisquam ea exercitationem beatae repellat praesentium doloremque iste excepturi dicta perferendis voluptatum impedit dignissimos voluptates. Voluptas esse minus, tempore, dolorem aspernatur eius magnam amet harum vitae exercitationem hic suscipit? Accusantium eligendi fugiat eaque eum dolor optio officiis. Possimus nulla reprehenderit maxime molestiae, cumque aliquid cupiditate ex impedit! In, officia animi repudiandae explicabo quos consequuntur corporis quam omnis rerum iste facilis sint molestiae hic numquam dolores ipsa eaque deleniti dolorum dolorem sapiente eligendi reiciendis. Nulla voluptatibus quia corrupti excepturi tempora fuga maxime quam sed? Tempora sequi corporis quos autem perspiciatis soluta itaque neque exercitationem tenetur, voluptatem blanditiis assumenda cum. Minima aliquam cum similique nam optio debitis libero excepturi veritatis adipisci tenetur nostrum voluptatum a numquam possimus itaque corrupti distinctio, odit nobis deleniti? Sit doloribus autem voluptas! Impedit sint suscipit pariatur sequi? Consectetur quasi quod possimus. Doloremque aspernatur sed, repudiandae rerum adipisci voluptatibus. Quidem consequuntur maiores aliquid pariatur odit quos mollitia vero modi, deserunt dolorem perferendis totam illo libero distinctio?</p>
+    
+    <h2 id="section-css">CSS</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis sint ea ad ipsum dolor nihil, reiciendis ratione error rem architecto doloribus maiores esse ab excepturi atque enim consectetur facere eaque eum aliquid est repudiandae sunt. Aperiam eum molestiae optio neque hic soluta enim reiciendis reprehenderit impedit doloremque, error corporis ratione facere ipsa quidem vero similique dolore ipsam nobis aliquam. Ab doloremque quia ad cum ducimus laboriosam illum nemo debitis facere pariatur. At voluptas quod est vero natus soluta sint magni cumque voluptatibus. Illum consectetur facilis inventore, error fugit corrupti ut non alias, hic ducimus ea distinctio molestiae repellat aperiam quos voluptatibus cum similique reprehenderit modi recusandae. Vel soluta quia numquam impedit sapiente. Iste, quisquam ex aperiam rem eius illo suscipit at deserunt doloremque ad vero nobis sed ipsa reprehenderit asperiores voluptates, placeat quam facilis quia porro. Suscipit fugiat nisi deserunt ad? Obcaecati enim fuga repellendus dolores a adipisci veritatis vero, nemo alias reiciendis quisquam. Enim sed impedit eius tempora similique pariatur, quisquam ea quibusdam cum ipsam ad maxime aliquid, esse dignissimos eligendi perspiciatis voluptatem explicabo fugit voluptates cumque necessitatibus a delectus facilis? Nam harum in numquam temporibus inventore provident suscipit vel velit voluptate, quia ea maxime autem pariatur error amet.</p>
+    <!--Add Achor to jump to top of page-->
+    <!--a '#' with no destination will go to top of page-->
+    <a href="#">Top of Page</a>
 </body>
 </html>
