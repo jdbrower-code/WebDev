@@ -32,20 +32,38 @@
            height: 200px;
            object-fit: cover; 
         }
+
+        video
+        {
+           width: 400px; 
+        }
     </style>
 </head>
 <body>
 
     <img src="images/Laptop1.png" alt="Laptop that is opening">
+    <p></p>
+    <!--Embed a Video-->
+    <!--just using the video element will palce the video but no
+    controls to play so it will appear as a image-->
+    <!--By adding the controls attribute you can play the video-->
+    <!--By adding the autoplay element it will play when loaded-->
+    <!--By adding loop element the video will replay continously-->
+    <video controls autoplay loop src="Videos/Ocean1.mp4">
+        <!--Fallback text incase browser doesn't support Video-->
+        Your Browser Does Not Support Video
+    </video>
 
     <!--Headings-->
     <h1>Heading 1</h1>
+
     <h2>HTML</h2>
     <p>
         HTML Tutorial
     </p>
     <H3>Code</H3>
     <H3>Exercises</H3>
+
     <h2>CSS</h3>
     <p>
         CSS Tutorial
