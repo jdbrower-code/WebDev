@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+   table, 
+   td,
+   th
+   {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+   }
+   tfoot
+   {
+        text-align: left;
+   }
+
+</style>
+
+<body>
+   <!--Creating Tables-->
+   <!--should only be used to display tabular data-->
+   <table>
+        <thead><!--improves search engine and screen reader functionality-->
+            <tr>
+                <th colspan="2"><!--colspan dictates how many columes are used(default is 1)-->
+                    Expenses
+                </th>
+            </tr>
+            <tr><!--Table Row-->
+                <th><!--Table Header Cell-->
+                    Category
+                </th>
+                <th>
+                    Ammount
+                </th>
+        </thead>
+        <tbody><!--improves search engine and screen reader functionality-->
+
+            <!--Define a row-->
+     
+            </tr>
+            <tr>
+                <td><!--Table Data Cell-->
+                    Marketing
+                </td>
+                <td>
+                    $100
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Accounting
+                </td>
+                <td>
+                    $200
+                </td>
+            </tr>
+            
+        </tbody>
+        <tfoot><!--Footer-->
+            <tr>
+                <th>
+                    Total
+                </th>
+                <th>
+                    $300
+                </th>
+            </tr>
+        </tfoot>
+   </table> 
+</body>
+</html>
