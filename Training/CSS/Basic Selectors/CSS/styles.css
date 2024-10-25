@@ -5,3 +5,11 @@ body {
 p {
     color: orange;
 }
+
+/*'#' for Id*/
+/*You can not have multiple elements with the same 'Id'*/
+/*#products {}
+
+/*'.' for class*/
+/*You can have multiple elements with the same class*/
+/*.product {}

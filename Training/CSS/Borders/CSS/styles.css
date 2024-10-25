@@ -1,0 +1,19 @@
+.box {
+    width: 200px;
+    height: 200px;
+
+    background: radial-gradient(circle at top left, WHite, yellow);
+    border: 10px solid royalblue
+}
+
+.box2 {
+    margin-top;
+    width: 200px;
+    height: 200px;
+
+    background-image: linear-gradient(210deg, yellow, red);
+    border: 10px dashed royalblue;
+    border-width: 10px;
+    /*top right bottom left*/
+    border-radius: 100%;
+}
